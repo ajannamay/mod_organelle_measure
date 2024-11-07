@@ -14,8 +14,6 @@ sys.exit()
 
 # exec(open('./scripts/seg_phase_imges.py').read())
 
-
-
 #change the folder name in vars_allround1data
 
 #step0: create the folders for output analysis
@@ -115,4 +113,3 @@ print("======================================================= ")
 ####=================================================================
 print("====================",colored("read files: use csv2figure_new.py","red"),"===================================")
 ####=================================================================
-
