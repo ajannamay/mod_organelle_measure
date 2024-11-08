@@ -12,7 +12,7 @@ def choose_directory():
 
 
 list_folders = [
-    "July25"
+    "Aug07"
 ]
 
 
@@ -34,9 +34,9 @@ current_folder=list_folders[0]
 
 # # ####noise_tradeoff
 
-path_measure="../../../Experiments/2024/noise_tradeoff"
-path_in="../../../Experiments/2024/noise_tradeoff/"
-path_out="../../../Analysis/2024/noise_tradeoff"
+path_measure="C:/Users/admin/GitHub/mod_organelle_measure/experiments"
+path_in="C:/Users/admin/GitHub/mod_organelle_measure/experiments"
+path_out=".C:/Users/admin/GitHub/mod_organelle_measure/Analysis"
 
 
 
@@ -60,19 +60,19 @@ path_out="../../../Analysis/2024/noise_tradeoff"
 
 
 
-out_fig1="../../../Analysis/2023_analysis/csv2_figure/nov"
+# out_fig1="../../../Analysis/2023_analysis/csv2_figure/nov"
 
-#for reading files
-out_chxrapa="../../../Analysis/2024/chxrapa"
-out_hu="../../../Analysis/2023_analysis/HU"
-out_chx="../../../Analysis/2023_analysis/CHX"
-out_bfa="../../../Analysis/2023_analysis/BFA"
-out_control="../../../Analysis/2023_analysis/control"
-chx_im="../../../Analysis/2023_analysis/CHX/chx_images"
+# #for reading files
+# out_chxrapa="../../../Analysis/2024/chxrapa"
+# out_hu="../../../Analysis/2023_analysis/HU"
+# out_chx="../../../Analysis/2023_analysis/CHX"
+# out_bfa="../../../Analysis/2023_analysis/BFA"
+# out_control="../../../Analysis/2023_analysis/control"
+# chx_im="../../../Analysis/2023_analysis/CHX/chx_images"
 
 
-###==========xml file ie benchmark spectra
-path_xml="../../../Experiments/2023/xml_fileJan31"
+# ###==========xml file ie benchmark spectra
+# path_xml="../../../Experiments/2023/xml_fileJan31"
 
 ####chx
 
@@ -99,193 +99,193 @@ path_xml="../../../Experiments/2023/xml_fileJan31"
 
 ##measurements
 
-subfolders_chxrapa = [
+# subfolders_chxrapa = [
     
-   "April03",
+#    "April03",
   
-  "April04",
-  "April16",
+#   "April04",
+#   "April16",
   
-    ]
+#     ]
 
 
-# path_measure="../../../Analysis/2023_analysis/CHX/chx_measurements"
-
-
-
-growth_rate_chx={
-
-    "0":"0.5",
-    "0.01":"0.4",
-    "0.1":"0.29",
-    "0.5":"0.16",
-    "2":"0.13",
-
-    }
+# # path_measure="../../../Analysis/2023_analysis/CHX/chx_measurements"
 
 
 
+# growth_rate_chx={
 
-growth_rate_hu={
+#     "0":"0.5",
+#     "0.01":"0.4",
+#     "0.1":"0.29",
+#     "0.5":"0.16",
+#     "2":"0.13",
 
-    "0":"0.5",
-    "1.2":"0.44",
-    "4":"0.36",
+#     }
+
+
+
+
+# growth_rate_hu={
+
+#     "0":"0.5",
+#     "1.2":"0.44",
+#     "4":"0.36",
  
 
-    }
+#     }
 
 
 
-raw2sp=[
-    # "July22",
-    # "July25",
-    # "July28",
-    # "Aug01",
-    # "Aug02",
-    # "Aug05",
-    # "Aug06",
-    # "Aug07",
-# "Aug17",
-"Aug19",
-"Aug20",
-"Aug21",
-"Sept07",
-"sept29",
-"Sept30",
-"Oct02",
-"Oct03",
-# "Oct04",
-# "Oct05",
-"Oct07",
-]
+# raw2sp=[
+#     # "July22",
+#     # "July25",
+#     # "July28",
+#     # "Aug01",
+#     # "Aug02",
+#     # "Aug05",
+#     # "Aug06",
+#     # "Aug07",
+# # "Aug17",
+# "Aug19",
+# "Aug20",
+# "Aug21",
+# "Sept07",
+# "sept29",
+# "Sept30",
+# "Oct02",
+# "Oct03",
+# # "Oct04",
+# # "Oct05",
+# "Oct07",
+# ]
 
 
 
-subfolders_chx = [
+# subfolders_chx = [
     
-    "Aug01",
-    "Aug02",
-    "Aug07",
+#     "Aug01",
+#     "Aug02",
+#     "Aug07",
     
-    #========================0.01================#
-    "Aug05",
-    "Aug19",
-    "Sept30",
-    "Oct07",
-    #========================0.1================#
-    "Aug06",
-    "Aug20",
-    "Oct02",
-    # "Oct04",
-    #========================0.5================#
-    # "Aug17",
-    "Aug21",
-    # "Oct05",
-    #========================2.0================#
-    "Sept07",
-    "Sept29",
-    "Oct03",
+#     #========================0.01================#
+#     "Aug05",
+#     "Aug19",
+#     "Sept30",
+#     "Oct07",
+#     #========================0.1================#
+#     "Aug06",
+#     "Aug20",
+#     "Oct02",
+#     # "Oct04",
+#     #========================0.5================#
+#     # "Aug17",
+#     "Aug21",
+#     # "Oct05",
+#     #========================2.0================#
+#     "Sept07",
+#     "Sept29",
+#     "Oct03",
     
-]
-subfolders_bfa = [
-    #========================25================#
+# ]
+# subfolders_bfa = [
+#     #========================25================#
     
-    "Nov27","Nov28","Sept11",
-    #========================75================#
-    "Nov30","Sept12",
-    #========================100================#
+#     "Nov27","Nov28","Sept11",
+#     #========================75================#
+#     "Nov30","Sept12",
+#     #========================100================#
     
-    "Sept13",
+#     "Sept13",
     
-]
+# ]
 
-subfolders_control = [
+# subfolders_control = [
    
-    "Aug01",
-    "Aug02",
-    "Aug07",
-]
+#     "Aug01",
+#     "Aug02",
+#     "Aug07",
+# ]
 
 
-subfolders_hu = [
-    #========================1.2================#
-    "Dec12",
-    "Nov06",
-    "Nov08",
-    #========================4================#
-    "Oct21"
+# subfolders_hu = [
+#     #========================1.2================#
+#     "Dec12",
+#     "Nov06",
+#     "Nov08",
+#     #========================4================#
+#     "Oct21"
     
     
-]
+# ]
 
 
-organelles={
+# organelles={
     
     
-    "peroxisome":"blue",
-    "vacuole":"blue",
-    "ER":"green",
-    "golgi":"yellow",
-    "mitochondria":"red",
-    "LD":"red",
-    "non-organelle":"non-organelle"
+#     "peroxisome":"blue",
+#     "vacuole":"blue",
+#     "ER":"green",
+#     "golgi":"yellow",
+#     "mitochondria":"red",
+#     "LD":"red",
+#     "non-organelle":"non-organelle"
     
     
-    }
+#     }
 
 
 
-output_folders={
-    "segmented_cell":"segmented_cell",
-    "organelle_unmixed":"organelle_unmixed",
-    "ilastk_segmentated":"ilastk_segmentated",
-    "label_organelle":"label_organelle",
-    "spectra":"spectra",
-    "measurements":"measurements",
-    "ilastk_control_libfile":"ilastk_control_libfile"
+# output_folders={
+#     "segmented_cell":"segmented_cell",
+#     "organelle_unmixed":"organelle_unmixed",
+#     "ilastk_segmentated":"ilastk_segmentated",
+#     "label_organelle":"label_organelle",
+#     "spectra":"spectra",
+#     "measurements":"measurements",
+#     "ilastk_control_libfile":"ilastk_control_libfile"
 
-    }
+#     }
 
 
 
-experiments = {
-    "control":"control",
-    "cycloheximide": "Cycloheximide",
-    "bfa":     "bfa",
-    "hu":"hu"
-}
+# experiments = {
+#     "control":"control",
+#     "cycloheximide": "Cycloheximide",
+#     "bfa":     "bfa",
+#     "hu":"hu"
+# }
 
-growth_rate={
+# growth_rate={
     
-    "growth_chx":{"0.0":0.5,
-        "0.01":0.4,
-                  "0.1":0.29,
-                  "0.5":0.16,
-                  "2.0":0.13},
+#     "growth_chx":{"0.0":0.5,
+#         "0.01":0.4,
+#                   "0.1":0.29,
+#                   "0.5":0.16,
+#                   "2.0":0.13},
     
     
-    # "growth_chx":[0.4,0.29,0.16,0.13],
-    "growth_bfa":{
+#     # "growth_chx":[0.4,0.29,0.16,0.13],
+#     "growth_bfa":{
     
-        "25.0":0.4,
-        "75.0":0.29,
-        "100.0":0.13
+#         "25.0":0.4,
+#         "75.0":0.29,
+#         "100.0":0.13
         
-        },
-    "growth_hu":
+#         },
+#     "growth_hu":
         
-        {
-            "1.2":0.4,
+#         {
+#             "1.2":0.4,
                 
-                "4":0.29
+#                 "4":0.29
             
             
-            }
+#             }
         
     
     
-    }
+#     }
 
 
 
