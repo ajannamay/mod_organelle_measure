@@ -32,7 +32,7 @@ list_in = []
 list_out = []
 
 for folder in var.list_folders:
-    for file_cell in Path(f"{var.path_in}{folder}").glob("camera*.nd2"):
+    for file_cell in Path(f"{var.path_in}/{folder}").glob("camera*.nd2"):
         print(file_cell)
         list_in.append(file_cell)
         file_segm = Path(f"{var.path_out}/{folder}/{var.output_folders['segmented_cell']}")/f"CellSeg-{file_cell.stem.partition('_')[2]}.tif"

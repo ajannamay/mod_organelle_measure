@@ -29,20 +29,11 @@ def postprocess_globular(path_in,path_ref,path_out):
     )
     return None
 
-folders = [
-    # "EYrainbow_glucose",
-    # "EYrainbow_glucose_largerBF",
-    # "EYrainbow_rapamycin_1stTry",
-    # "EYrainbow_rapamycin_CheckBistability",
-    "EYrainbow_1nmpp1_1st" # ,
-    # "EYrainbowWhi5Up_betaEstrodiol",
-    # "EYrainbow_leucine_large",
-    # "EYrainbow_leucine"
-]
+
 organelles = [
     "peroxisome",   
-"LD",
-"golgi"
+    "LD",
+    "golgi"
 ]
 
 
