@@ -10,7 +10,7 @@ This is master python file to do the image analysis with stepwise. Follow the st
 '''
 import sys
 from termcolor import colored
-sys.exit()
+# sys.exit()
 
 # exec(open('./scripts/seg_phase_imges.py').read())
 
@@ -25,7 +25,7 @@ exec(open('./scripts/_runFirst.py').read())
 #step1: segment the bright field cell images using Yeaz
 
 exec(open('./scripts/segment_cell.py').read())
-#%%
+# %%
 #step2: Unmixed the organlles or pre-processes
 
 '''
@@ -113,3 +113,4 @@ print("======================================================= ")
 ####=================================================================
 print("====================",colored("read files: use csv2figure_new.py","red"),"===================================")
 ####=================================================================
+
