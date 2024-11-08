@@ -27,17 +27,28 @@ current_folder=list_folders[0]
 # path_out="../../../Analysis/2024/new_strain"
 
 
-
+# exec(open('C:Users/admin/GitHub/mod_organelle_measure/code/organelle_measure_main/scripts/_runFirst.py').read())
 
 
 
 
 # # ####noise_tradeoff
 
-path_measure="C:/Users/admin/GitHub/mod_organelle_measure/experiments"
-path_in="C:/Users/admin/GitHub/mod_organelle_measure/experiments"
-path_out=".C:/Users/admin/GitHub/mod_organelle_measure/Analysis"
+# path_measure="C:/Users/admin/GitHub/mod_organelle_measure/experiments"
+path_in="../../experiments"
+path_out="../../Analysis"
 
+
+output_folders={
+    "segmented_cell":"segmented_cell",
+    "organelle_unmixed":"organelle_unmixed",
+    "ilastk_segmentated":"ilastk_segmentated",
+    "label_organelle":"label_organelle",
+    "spectra":"spectra",
+    "measurements":"measurements",
+    "ilastk_control_libfile":"ilastk_control_libfile"
+
+    }
 
 
 
@@ -236,16 +247,6 @@ path_out=".C:/Users/admin/GitHub/mod_organelle_measure/Analysis"
 
 
 
-# output_folders={
-#     "segmented_cell":"segmented_cell",
-#     "organelle_unmixed":"organelle_unmixed",
-#     "ilastk_segmentated":"ilastk_segmentated",
-#     "label_organelle":"label_organelle",
-#     "spectra":"spectra",
-#     "measurements":"measurements",
-#     "ilastk_control_libfile":"ilastk_control_libfile"
-
-#     }
 
 
 
